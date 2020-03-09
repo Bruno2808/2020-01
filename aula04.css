@@ -1,0 +1,43 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family: 'Bellota', cursive;
+}
+
+body{
+   background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+/* Largura de um elemento */
+  width: 800px;
+/* Centralizando divs/elementos */
+  margin: 0px auto;
+padding: 50px;
+
+}
+
+/* a div conteudo dentro da div site */
+.site .conteudo{
+  /* background-color: yellow; */
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+
+  border-top: solid 1px #ADADAD
+}
+
+.site .topo{
+  font-family: 'Bellota' cursive;
+  text-align: enter;
+}
+
+.site .topo, .topo .rodape{
+  font-family: 'Sedgwick Ave', cursive;
+  text-align: center;
+}
+
+.site .rodape{
+border-top: solid 1px #ADADAD
+}
